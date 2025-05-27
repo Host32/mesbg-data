@@ -17714,7 +17714,8 @@
             "name": "Invisible",
             "elementPropertyName": "keywords"
           }
-        ]
+        ],
+        "specialRules": ["Invisible"]
       },
       {
         "name": "Shield and Spear",
