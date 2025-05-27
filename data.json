@@ -17712,7 +17712,7 @@
         "additionalDefinitions": [
           {
             "dataSource": "keywords",
-            "name": "Stalk Unseen",
+            "name": "Invisible",
             "elementPropertyName": "keywords"
           }
         ]
