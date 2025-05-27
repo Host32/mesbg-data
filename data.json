@@ -325,7 +325,15 @@
               "label": "Wargear",
               "type": "static",
               "dataSource": "gear",
-              "disallowedMultiples": ["bow", "mount", "armour", "shield"]
+              "disallowedMultiples": ["bow", "mount", "armour", "shield"],
+              "children": [
+                {
+                  "label": "Special Rules",
+                  "propertyName": "specialRules",
+                  "type": "static",
+                  "dataSource": "keywords"
+                }
+              ]
             },
             {
               "propertyName": "options",
@@ -19486,7 +19494,7 @@
       {
         "name": "Invisible",
         "tag": "Passive",
-        "definition": "A model that is Invisible cannot be targeted by Magical Powers"
+        "definition": "A model that is Invisible cannot be targeted by Magical Powers, Shooting Attacks or special rules and other models cannot draw Line of Sight to it. An Invisible model has no Control Zone, and models (from either side) may Move through them as if they were not there, though they cannot finish their Move overlapping the Invisible model. An Invisible model may Move through other models (from either side) and may ignore enemy Control Zones; however, it may not end its Move overlapping another model. If a model wishes to Charge an Invisible model, they must take an Intelligence Test, suffering a -1 penalty to the test for every full 1\" that the Invisible model is away from them. If this Intelligence Test is failed, the model may not Charge the Invisible model at all that turn, but may Charge a different target if they wish. An Invisible model may declare Heroic Actions, but friendly models may never benefit from their Heroic Actions. So, an Invisible model cannot shout With Me, At the Double, Loose or Take Aim, and if they declare a Heroic Combat, other friendly models cannot Move as part of it. An Invisible model also cannot provide a Stand Fast. During the Fight Phase, if an Invisible model is Engaged in Combat and has no other friendly models as part of the Combat, they will halve the Fight Value of all enemy models they are Engaged in Combat with. A friendly model cannot Support an Invisible model, and models cannot Support a model that is only fighting an Invisible model. None of the above applies to Sauron or Ringwraith models – see the Will of Evil special rule for further details."
       },
       {
         "name": "Piercing Shot",
