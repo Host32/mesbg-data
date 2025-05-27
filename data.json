@@ -25377,7 +25377,8 @@
         "additionalDefinitions": [
           {
             "dataSource": "keywords",
-            "name": "Stalk Unseen"
+            "name": "Stalk Unseen",
+            "elementPropertyName": "keywords"
           }
         ]
       },
@@ -25395,7 +25396,8 @@
         "additionalDefinitions": [
           {
             "dataSource": "keywords",
-            "name": "Invisible"
+            "name": "Invisible",
+            "elementPropertyName": "keywords"
           }
         ]
       }
