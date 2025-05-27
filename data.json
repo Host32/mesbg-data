@@ -17705,17 +17705,15 @@
         "modifiesStats": [{ "stat": "strength", "modifier": 1 }]
       },
       {
+        "name": "Invisible",
+        "tag": "Passive",
+        "definition": "A model that is Invisible cannot be targeted by Magical Powers, Shooting Attacks or special rules and other models cannot draw Line of Sight to it. An Invisible model has no Control Zone, and models (from either side) may Move through them as if they were not there, though they cannot finish their Move overlapping the Invisible model. An Invisible model may Move through other models (from either side) and may ignore enemy Control Zones; however, it may not end its Move overlapping another model. If a model wishes to Charge an Invisible model, they must take an Intelligence Test, suffering a -1 penalty to the test for every full 1\" that the Invisible model is away from them. If this Intelligence Test is failed, the model may not Charge the Invisible model at all that turn, but may Charge a different target if they wish. An Invisible model may declare Heroic Actions, but friendly models may never benefit from their Heroic Actions. So, an Invisible model cannot shout With Me, At the Double, Loose or Take Aim, and if they declare a Heroic Combat, other friendly models cannot Move as part of it. An Invisible model also cannot provide a Stand Fast. During the Fight Phase, if an Invisible model is Engaged in Combat and has no other friendly models as part of the Combat, they will halve the Fight Value of all enemy models they are Engaged in Combat with. A friendly model cannot Support an Invisible model, and models cannot Support a model that is only fighting an Invisible model. None of the above applies to Sauron or Ringwraith models – see the Will of Evil special rule for further details."
+      },
+      {
         "name": "The One Ring",
         "tag": "Active",
         "definition": "A model who carries the One Ring is referred to as the Ringbearer. A Ringbearer can put on the One Ring at any point during their Activation. As soon as they do they benefit from the Invisible special rule. A Ringbearer who is unable to Activate (such as if they are Engaged in Combat) cannot put on the Ring. If a model puts on the Ring whilst they are mounted, then their Mount will immediately bolt and flee the battlefield (the Mount is therefore removed), and the model must immediately take a Thrown Rider Test. If a Ringbearer begins its Activation wearing the One Ring, then their controlling player must test to see if the model can overcome the call of the Ring. To do this, the Ringbearer’s controlling player rolls a D6 before doing anything else for the Ringbearer during their Activation. A Hero may use Might to improve this roll. On a 3+, the Ringbearer is able to keep control and may Activate as normal. However, on a 1-2 the opposing player may Move the Ringbearer during their Activation, and may even make them Charge – in this case, the model passes all Courage Tests for the Terror special rule. The opposing player cannot make the Ringbearer remove the Ring when they Move them. The opposing player cannot make the Ringbearer pick up or put down items, perform anything that may bring the Ringbearer to harm (such as Jumping off a cliff or making a Leap Test), or make them leave the board in Scenarios that allow it. It’s important to note that even when an opposing player gets to Move the Ringbearer in this manner, they are still part of their controlling player’s Army, and all other actions such as Shooting, fighting in Combat, or anything else the Ringbearer can do remains under the control of their controlling player. Such is the hold of the Ring, that any model who is wearing it and wants to remove it must take a Courage Test. This can be done at any point in the model’s Activation, though after making the roll for Sauron’s Will (if applicable). If the model fails this Courage Test then they cannot take the Ring off this turn and must wait until the following turn to try again.",
-        "additionalDefinitions": [
-          {
-            "dataSource": "keywords",
-            "name": "Invisible",
-            "elementPropertyName": "keywords"
-          }
-        ],
-        "specialRules": ["Invisible"]
+        "includes": [{ "name": "Invisible", "dataSource": "gear" }]
       },
       {
         "name": "Shield and Spear",
