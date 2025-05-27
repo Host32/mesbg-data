@@ -6484,7 +6484,8 @@
           "Resistant to Magic",
           "Throw Stones (range 8\", Strength 1)"
         ],
-        "wargear": ["Hand weapon", "The One Ring"]
+        "wargear": ["Hand weapon", "The One Ring"],
+        "includes": [{ "dataSource": "keywords", "name": "Invisible" }]
       },
       {
         "name": "Frodo Baggins (Garrison of Ithilien)",
